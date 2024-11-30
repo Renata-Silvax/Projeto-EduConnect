@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(85, 153, 255);
+    text-align: center;
+}
+
+/* Subtitulo para os videos e atividades */
+
+h2 {
+    margin-bottom: 150px;
+    background-color: white;
+    color: orange;
+    box-shadow: 3px black;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Videos */
+header {
+    font-size: 40px;
+    color: black;
+    color: white;
+    height: 100px;
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: 200px;
+    background: linear-gradient(45deg, rgb(85, 153, 255), rgb(0, 102, 204));
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.video_section h3 {
+    font-size: 30px;
+    color: black;
+    margin: 100px;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.video_section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.bloco_videos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    margin-top: -180px;
+}
+
+iframe {
+    margin: 28px;
+    transition: transform 0.3s ease;
+}
+
+iframe:hover {
+    transform: scale(1.05);
+}
+
+
+.dicas {
+    margin-bottom: 100px;
+}
+
+
+/* Atividades */
+
+.card_atividades {
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.atividade a {
+    text-decoration: none;
+    color: black;
+}
+section {
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: white;
+    height: 300px;
+}
+
+section img {
+    display: block;
+    width: 348px;
+    border-radius: 20px 20px 0 0;
+}

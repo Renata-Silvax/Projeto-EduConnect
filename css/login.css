@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    /* background-color: rgba(5, 78, 168, 0.481); */
+    background-color: rgb(85, 153, 255);
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255);
+    width: 225px;
+    height: 275px;
+    border-radius: 25px;
+    padding: 40px;
+    border-style: 2px solid;
+    font-size: 15px;
+
+}
+
+.login {
+    text-align: center;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 30px;
+    margin-top: -18px;
+}
+
+p {
+    text-align: justify;
+}
+
+.inputusuario {
+    padding: 10px;
+    background: none;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    width: 200px;
+
+}
+
+.loginNoMeio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaoEnviar {
+    width: 100%;
+    margin-top: -20px;
+    background-color: #007BFF;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.esqueceuSenha {
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.esqueceuSenha a {
+    text-decoration: none;
+    color:#4169E1;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #274BE1;
+}
+
+#toggleIconeRevelaSenha{
+    position: absolute;
+    margin-left: -25px;
+    cursor: pointer;
+    color: #0f284e;
+    top: calc(58% - 6px);
+}
