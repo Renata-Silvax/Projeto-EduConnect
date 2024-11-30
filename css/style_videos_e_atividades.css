@@ -81,6 +81,12 @@ iframe:hover {
 
 /* Atividades */
 
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+   margin-top: 20px;
+   font-size: 27px;
+}
+
 .card_atividades {
     display: flex;
     gap: 50px;
