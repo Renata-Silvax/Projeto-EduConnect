@@ -64,7 +64,6 @@ form {
     color: black;
     width: 100%;
     letter-spacing: 1px;
-    /*espaço entre cada caracter*/
 }
 
 .inputdata {
@@ -116,13 +115,11 @@ form {
 
 a {
     text-decoration: none;
-    /*color: rgb(0, 102, 254);*/
     color: #4169E1;
 }
 
 a:hover{
     text-decoration: underline;
-    /*color: #0056b3;*/
     color: #274BE1;
 }
 
