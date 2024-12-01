@@ -94,6 +94,38 @@ iframe:hover {
 }
 
 
+/* Videos para dicas*/
+
+.bloco_videos2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.dicas {
+    margin-bottom: 50px;
+    margin: 28px;
+    transition: all 0.2s;
+    width: 450px; 
+}
+
+.dicas:hover {
+    transform: scale(1.10);
+}
+
+.bloco_videos2 iframe {
+    margin: 28px;
+    transition: all 0.2s;
+}
+
+.bloco_videos2 iframe:hover {
+    transform: scale(1.10);
+}
+
+
+
 /* Atividades */
 
 .texto{
