@@ -32,7 +32,7 @@ form.addEventListener('submit', function (event) {
     if (nome && email && senha && data && sexo) {
 
         //Se todos os campo estiver preenchido, vai redirecionar para a próxima página  
-        location.href = 'pag_princ.html'
+        location.href = 'pag_principal_oficial.html'
 
         //Caso contrário aparece uma mensagem para preencher 
     } else {

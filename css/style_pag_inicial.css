@@ -31,7 +31,7 @@ header {
     transition: 0.3s ease-in;
 }
 
-.logo:hover{
+.logo:hover {
     font-size: 28px;
 }
 
@@ -39,7 +39,7 @@ span {
     color: rgb(255, 145, 0);
 }
 
-nav .containerFlex{
+nav .containerFlex {
     display: flex;
     flex-direction: row;
 }
@@ -84,14 +84,14 @@ details summary {
     background: rgb(232, 241, 255);
 }
 
-.cards{
+.cards {
     display: flex;
     justify-content: center;
     padding-top: 150px;
     flex-wrap: wrap;
 }
 
-.card{
+.card {
     padding: 20px;
     background-color: white;
     border-radius: 5px;
@@ -101,10 +101,10 @@ details summary {
     margin: 12px;
 }
 
-.button{
+.button {
     background-color: blue;
     color: white;
-    width:150px ;
+    width: 150px;
     text-decoration: none;
     border-radius: 7px;
     justify-content: center;
@@ -116,10 +116,10 @@ details summary {
     margin-left: 30%;
 }
 
-.button3{
+.button3 {
     background-color: blue;
     color: white;
-    width:150px ;
+    width: 150px;
     text-decoration: none;
     border-radius: 7px;
     justify-content: center;
@@ -130,46 +130,48 @@ details summary {
     margin-left: 30%;
 }
 
-img{
+img {
     width: 350px;
-    height:150px;
+    height: 150px;
     margin-left: 15px;
 }
 
-.page{
+.page {
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     text-align: center;
     padding: 20px;
     gap: 32px;
     color: white;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.418),rgba(108, 108, 108, 0.144)),url(../imagens/img_fundo_pag_principal_original.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.418), rgba(108, 108, 108, 0.144)), url(../imagens/img_fundo_pag_principal_original.jpg);
     background-size: cover;
     background-position: center;
-   
+
 }
 
-.page h1{
+.page h1 {
     color: rgb(236, 139, 3);
     font-size: 40px;
     padding-top: 20vh;
 }
-.metodologia{
+
+.metodologia {
     padding-top: 10vh;
     text-align: center;
-    color: blue;   
+    color: blue;
 }
 
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px;
 }
-.card-conteiner{
-    background-color:white;
+
+.card-conteiner {
+    background-color: white;
     width: 40vh;
     height: 35vh;
     text-align: center;
@@ -179,18 +181,17 @@ img{
     transition: all 0.5s;
 }
 
-.card-conteiner:hover{
+.card-conteiner:hover {
     scale: 1.1;
 }
 
-.card-conteiner h2{
+.card-conteiner h2 {
     color: blue;
 }
 
-.card-conteiner img{
+.card-conteiner img {
     height: 50px;
     width: 40px;
     background-color: orange;
     border-radius: 5px;
 }
-
