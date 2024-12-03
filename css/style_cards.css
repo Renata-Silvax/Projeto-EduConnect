@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+
+}
+
+.main {
+   display: flex;
+   justify-content: center;
+}
+
+.card {
+    margin: 50px;
+    background-color: #F2F2F2;
+    color: #202020;
+    width: 300px;
+    height: 380px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow:  rgb(0, 0, 0, 0.3) 0px 19px 38px,  rgb(0, 0, 0, 0.22);
+}
+
+.card>img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card>h1 {
+    font-size: 21px;
+    padding-top: 10px;
+}
+
+.card>p {
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
