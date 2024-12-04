@@ -12,10 +12,10 @@ body {
 
 /* Subtitulo para os videos*/
 
-h2 {
+.h2_Dicas{
     margin-bottom: 150px;
-    background-color: white;
     color: rgb(178, 119, 9);
+    background-color: white;
     box-shadow: 3px black;
     height: 60px;
     text-align: center;
@@ -24,7 +24,6 @@ h2 {
     align-items: center;
     width: 350px;
     margin: auto;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
