@@ -45,15 +45,16 @@ img {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Parte do titulo e subtitulo de cada Section */
 
 h1{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 p{
-    font-size: 25px;
+    font-size: 16.5px;
     text-align: justify;
 }
