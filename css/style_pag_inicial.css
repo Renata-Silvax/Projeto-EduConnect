@@ -100,21 +100,8 @@ details summary {
     margin: 12px;
 }
 
-.button {
-    background-color: blue;
-    color: white;
-    width: 150px;
-    text-decoration: none;
-    border-radius: 7px;
-    justify-content: center;
-    align-items: center;
-    height: 45px;
-    display: flex;
-    margin-top: 10px;
-    text-align: center;
-    margin-left: 30%;
-}
 
+.button,
 .button3 {
     background-color: blue;
     color: white;
@@ -125,8 +112,28 @@ details summary {
     align-items: center;
     height: 45px;
     display: flex;
-    margin-top: 50px;
+    margin-top: 90px;
+    text-align: center;
     margin-left: 30%;
+}
+
+.button2 {
+    background-color: blue;
+    color: white;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    display: flex;
+    margin-top: 59px;
+    text-align: center;
+    margin-left: 30%;
+} 
+
+.button:hover, .button2:hover, .button3:hover {
+    background: #0056b3;
 }
 
 img {
