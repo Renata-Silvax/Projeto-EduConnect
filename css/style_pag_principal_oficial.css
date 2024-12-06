@@ -19,7 +19,7 @@ body {
     font-size: 2rem;
     cursor: pointer;
 }
- 
+ /* estilo da barra menu */
 nav.menu-lateral {
     width: 80px;
     height: 100%;
@@ -52,7 +52,7 @@ nav.menu-lateral.expadir .txt-link {
     font-size: 24px;
     cursor: pointer;
 }
-
+/* estilização da lista */
 ul {
     height: 100%;
     list-style-type: none;
@@ -89,7 +89,7 @@ ul li.item-menu a .icon>i {
     margin-left: 12px;
     opacity: 1;
 }
-
+/* estilização dos cards */
 .cards {
     display: flex;
     justify-content: center;
@@ -115,7 +115,7 @@ ul li.item-menu a .icon>i {
 #cardimg {
     margin-left: 37px;
 }
-
+/* estilização dos cards que contém o conteúdo */
 #titulo-card {
     margin-left: 85px;
     background-color: rgb(47, 124, 248);
@@ -166,7 +166,7 @@ img {
     height: 150px;
     margin-left: 15px;
 }
-
+/* estilização da laite page */
 .page {
     display: flex;
     flex-direction: column;
