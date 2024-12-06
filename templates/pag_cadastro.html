@@ -21,24 +21,29 @@
         </div>
 
         <div class="p1">
+
             <p>
+                <!-- local de inserir o nome do usuário -->
                 <label for="inome" class="labelinput">Nome:</label>
                 <input type="text" name="nome" id="inome" class="inputNome_Email" placeholder="Digite o seu nome"
                     required>
             </p>
 
             <p>
+                <!-- local de inserir o email do usuário -->
                 <label for="iemail" class="labelinput">E-mail:</label>
                 <input type="email" name="email" id="iemail" class="inputNome_Email" placeholder="Digite o seu e-mail"
                     required>
             </p>
 
             <p>
+                <!-- local de inserir a data de nascimento do usuário -->
                 <label for="data" class="labelinput">Data de Nascimento:</label> <br>
                 <input type="date" name="dtnasc" id="data" class="inputdata" required>
             </p>
 
             <p class="senha">
+                <!-- local de inserir a senha -->
                 <label for="idsenha">Senha:</label>
                 <input type="password" name="senha" id="idsenha" class="inputsenha" placeholder="Digite a senha"
                     required>
@@ -49,6 +54,7 @@
         </div>
 
         <div>
+            <!-- local de escolher o sexo -->
             <p class="p2">Sexo:
                 <br><input type="radio" name="sexo" id="masc" value="masculino">
                 <label for="masc">Masculino</label><br>
@@ -61,13 +67,14 @@
             </p>
 
             <p class="login">
+                <!-- link para caso o usuário ja tenha uma conta -->
                 <strong>Já tem conta?</strong>
                 <a href="../templates/pag_login.html" target="_self" rel="next"><strong>
                         Faça login!</strong></a>
             </p>
 
         </div>
-
+        <!-- botão de cadastrar -->
         <button class="butao" type="submit" id="botao">Cadastrar</button>
     </form>
 
