@@ -9,8 +9,6 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
-
 body {
     height: 100vh;
 }
@@ -24,9 +22,7 @@ nav.menu-lateral {
     width: 80px;
     height: 100%;
     background-color: white;
-    padding: 40px 0 40px 1%;
-    box-shadow: 3px 0 0 rgb(212, 92, 37);
-
+    box-shadow: 3px 0 0 rgb(0, 0, 0);
     position: fixed;
     top: 0;
     left: 0;
@@ -63,16 +59,20 @@ ul li.item-menu {
 }
 
 ul li.ativo {
-    background-color: rgb(91, 91, 238);
+    background-color: black;
+}
+ul li.ativo > a > span.icon{
+    background-color: black;
+    color: white;
 }
 
 ul li.item-menu:hover {
-    background: rgb(91, 91, 238);
-}
+  
 
+}
 ul li.item-menu a {
     display: flex;
-    color: orange;
+    color: black;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 4%;
@@ -80,13 +80,13 @@ ul li.item-menu a {
 
 ul li.item-menu a .txt-link {
     font-size: 12pt;
-    color: orange;
+    color: rgb(0, 0, 0);
     margin-left: 70px;
 }
-
 ul li.item-menu a .icon>i {
     font-size: 25px;
-    margin-left: 12px;
+    display: block;
+    margin:0px 60%;
     opacity: 1;
 }
 /* estilização dos cards */
