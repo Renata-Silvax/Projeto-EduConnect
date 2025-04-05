@@ -21,7 +21,7 @@ body {
 nav.menu-lateral {
     width: 80px;
     height: 100%;
-    background-color: white;
+    background-color:#2C3E50;
     box-shadow: 3px 0 0 rgb(189, 136, 4);
     position: fixed;
     top: 0;
@@ -44,7 +44,7 @@ nav.menu-lateral.expadir .txt-link {
 }
 
 .btn-expadir>i {
-    color: white;
+    color: #ffff;
     font-size: 24px;
     cursor: pointer;
 }
@@ -58,21 +58,21 @@ ul li.item-menu {
     transition: .2s;
 }
 
-ul li.ativo {
-    background-color: rgb(194, 194, 194);
-}
+/*ul li.ativo {
+    background-color: #F39C12;
+}*/
+
 ul li.ativo > a > span.icon{
-    background-color:  rgb(194, 194, 194);
-    color: rgb(0, 30, 136);
+    color: #ffff;
 }
 
 ul li.item-menu:hover {
-  
-
+  background-color: #F39C12;
 }
+
 ul li.item-menu a {
     display: flex;
-    color: rgb(0, 30, 136);
+    color:#ffff;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 4%;
@@ -80,7 +80,7 @@ ul li.item-menu a {
 
 ul li.item-menu a .txt-link {
     font-size: 12pt;
-    color: rgb(0, 0, 0);
+    color: white;
     margin-left: 70px;
 }
 ul li.item-menu a .icon>i {
@@ -89,6 +89,7 @@ ul li.item-menu a .icon>i {
     margin:0px 60%;
     opacity: 1;
 }
+
 /* estilização dos cards */
 .cards {
     display: flex;
