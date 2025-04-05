@@ -15,9 +15,45 @@ body {
     background-color: #ECF0F1;
 }
 
+/* Impede rolagem horizontal */
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 .tamanho-btn {
     font-size: 2rem;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    nav.menu-lateral {
+        width: 60px;
+    }
+
+    .page {
+        margin-left: 60px;
+    }
+
+    .container {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .cards {
+        flex-direction: column;
+        /* Cards em coluna */
+    }
+
+    .card {
+        width: 90%;
+
+    }
+
+    .card-conteiner {
+        width: 90%;
+    }
 }
 
 /* estilo da barra menu */
@@ -25,7 +61,7 @@ nav.menu-lateral {
     width: 80px;
     height: 100%;
     background-color: #2C3E50;
-    box-shadow: 3px 0 0 rgb(212, 153, 3);
+    box-shadow: 3px 0 0 #F39C12;
     position: fixed;
     top: 0;
     left: 0;
@@ -41,14 +77,13 @@ nav.menu-lateral.expadir .txt-link {
     margin-left: 40px;
 }
 
+
 .btn-expadir {
     width: 100%;
     padding-left: 100px;
-    background-color: #2C3E50;
 }
 
 .btn-expadir>i {
-    color: #F39C12;
     font-size: 24px;
     cursor: pointer;
 }
@@ -108,15 +143,23 @@ ul li.item-menu a .icon>i {
     padding: 20px;
     background-color: #ECF0F1;
     border-radius: 5px;
-    border-color: rgb(0, 0, 0);
+    border-color: grey;
     border-style: solid;
     border-width: 1px;
     margin: 12px;
     color: #2C3E50;
 }
 
+h2{
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+}
+
 .card img {
-    width: 22vw;
+    width: 20vw;
 }
 
 #cardimg {
@@ -184,19 +227,20 @@ img {
     text-align: center;
     padding: 20px;
     gap: 32px;
-    color: #BDC3C7;
-    /* Texto em cinza claro */
-    height: 100vh;
+    color: white;
+    font-size: 15px;
+    min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(44, 62, 80, 0.5), rgba(108, 108, 108, 0.1)), url(../imagens/img_fundo_pag_principal_original.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin-left: 80px;
 }
 
 .page h1 {
     color: #2C3E50;
-    font-size: 40px;
+    font-size: 50px;
     padding-top: 20vh;
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.7);
 }
@@ -208,15 +252,18 @@ a {
 .metodologia {
     text-align: center;
     color: #2C3E50;
-    margin-top: 30px;
+    margin-top: 40px;
+    font-size: 40px;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
     justify-content: space-around;
     margin: 20px;
-    width: 1200px;
+    width: 1400px;
     margin-left: 10vw;
 }
 
@@ -225,7 +272,7 @@ a {
     width: 40vh;
     height: 45vh;
     text-align: center;
-    padding: 10px;
+    padding: 25px;
     box-shadow: 0px 4px 8px rgba(128, 128, 128, 0.199);
     margin: 20px;
     transition: all 0.5s;
