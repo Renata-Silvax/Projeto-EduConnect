@@ -9,25 +9,64 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 body {
     height: 100vh;
+    background-color: #ECF0F1;
+}
+
+/* Impede rolagem horizontal */
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .tamanho-btn {
     font-size: 2rem;
     cursor: pointer;
 }
- /* estilo da barra menu */
+
+@media (max-width: 768px) {
+    nav.menu-lateral {
+        width: 60px;
+    }
+
+    .page {
+        margin-left: 60px;
+    }
+
+    .container {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .cards {
+        flex-direction: column;
+        /* Cards em coluna */
+    }
+
+    .card {
+        width: 90%;
+
+    }
+
+    .card-conteiner {
+        width: 90%;
+    }
+}
+
+/* estilo da barra menu */
 nav.menu-lateral {
     width: 80px;
     height: 100%;
-    background-color: white;
-    box-shadow: 3px 0 0 rgb(189, 136, 4);
+    background-color: #2C3E50;
+    box-shadow: 3px 0 0 #F39C12;
     position: fixed;
     top: 0;
     left: 0;
     overflow: hidden;
-    transition: .5s;
+    transition: width 0.5s ease-in-out;
 }
 
 nav.menu-lateral.expadir {
@@ -38,16 +77,17 @@ nav.menu-lateral.expadir .txt-link {
     margin-left: 40px;
 }
 
+
 .btn-expadir {
     width: 100%;
     padding-left: 100px;
 }
 
 .btn-expadir>i {
-    color: white;
     font-size: 24px;
     cursor: pointer;
 }
+
 /* estilização da lista */
 ul {
     height: 100%;
@@ -58,21 +98,21 @@ ul li.item-menu {
     transition: .2s;
 }
 
-ul li.ativo {
-    background-color: rgb(194, 194, 194);
-}
-ul li.ativo > a > span.icon{
-    background-color:  rgb(194, 194, 194);
-    color: rgb(0, 30, 136);
+/*ul li.ativo {
+    background-color: #F39C12;
+}*/
+
+ul li.ativo>a>span.icon {
+    color: #ffff;
 }
 
 ul li.item-menu:hover {
-  
-
+    background-color: #F39C12;
 }
+
 ul li.item-menu a {
     display: flex;
-    color: rgb(0, 30, 136);
+    color: #ffff;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 4%;
@@ -80,15 +120,17 @@ ul li.item-menu a {
 
 ul li.item-menu a .txt-link {
     font-size: 12pt;
-    color: rgb(0, 0, 0);
+    color: white;
     margin-left: 70px;
 }
+
 ul li.item-menu a .icon>i {
     font-size: 25px;
     display: block;
-    margin:0px 60%;
+    margin: 0px 60%;
     opacity: 1;
 }
+
 /* estilização dos cards */
 .cards {
     display: flex;
@@ -99,26 +141,35 @@ ul li.item-menu a .icon>i {
 
 .card {
     padding: 20px;
-    background-color: white;
+    background-color: #ECF0F1;
     border-radius: 5px;
-    border-color: gray;
+    border-color: grey;
     border-style: solid;
     border-width: 1px;
     margin: 12px;
+    color: #2C3E50;
+}
 
+h2{
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
 }
 
 .card img {
-    width: 22vw;
+    width: 20vw;
 }
 
 #cardimg {
     margin-left: 37px;
 }
+
 /* estilização dos cards que contém o conteúdo */
 #titulo-card {
     margin-left: 85px;
-    background-color: rgb(11, 11, 255);
+    background-color: #2C3E50;
     border-radius: 0 30px 30px 0;
     color: white;
     text-align: center;
@@ -128,7 +179,7 @@ ul li.item-menu a .icon>i {
 
 .button,
 .button3 {
-    background-color: blue;
+    background-color: #F39C12;
     color: white;
     width: 150px;
     text-decoration: none;
@@ -143,7 +194,7 @@ ul li.item-menu a .icon>i {
 }
 
 .button2 {
-    background-color: blue;
+    background-color: #F39C12;
     color: white;
     width: 150px;
     text-decoration: none;
@@ -155,10 +206,12 @@ ul li.item-menu a .icon>i {
     margin-top: 62px;
     text-align: center;
     margin-left: 30%;
-} 
+}
 
-.button:hover, .button2:hover, .button3:hover {
-    background: #0056b3;
+.button:hover,
+.button2:hover,
+.button3:hover {
+    background: #F1C40F;
 }
 
 img {
@@ -166,6 +219,7 @@ img {
     height: 150px;
     margin-left: 15px;
 }
+
 /* estilização da laite page */
 .page {
     display: flex;
@@ -174,18 +228,21 @@ img {
     padding: 20px;
     gap: 32px;
     color: white;
-    height: 100vh;
+    font-size: 15px;
+    min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.418), rgba(108, 108, 108, 0.144)), url(../imagens/img_fundo_pag_principal_original.jpg);
+    background-image: linear-gradient(rgba(44, 62, 80, 0.5), rgba(108, 108, 108, 0.1)), url(../imagens/img_fundo_pag_principal_original.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin-left: 80px;
 }
 
 .page h1 {
-    color: rgb(255, 174, 24);
-    font-size: 40px;
+    color: #2C3E50;
+    font-size: 50px;
     padding-top: 20vh;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.7);
 }
 
 a {
@@ -194,16 +251,19 @@ a {
 
 .metodologia {
     text-align: center;
-    color: blue;
-    margin-top: 30px;
+    color: #2C3E50;
+    margin-top: 40px;
+    font-size: 40px;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
     justify-content: space-around;
     margin: 20px;
-    width: 1200px;
+    width: 1400px;
     margin-left: 10vw;
 }
 
@@ -212,7 +272,7 @@ a {
     width: 40vh;
     height: 45vh;
     text-align: center;
-    padding: 10px;
+    padding: 25px;
     box-shadow: 0px 4px 8px rgba(128, 128, 128, 0.199);
     margin: 20px;
     transition: all 0.5s;
@@ -223,12 +283,16 @@ a {
 }
 
 .card-conteiner h2 {
-    color: blue;
+    color: #2C3E50;
+}
+
+p {
+    color: #2C3E50;
 }
 
 .card-conteiner img {
     height: 50px;
     width: 40px;
-    background-color: orange;
+    background-color: #F39C12;
     border-radius: 5px;
 }
