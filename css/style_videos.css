@@ -6,8 +6,13 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(85, 153, 255);
+    background-color: #2C3E50;
     text-align: center;
+}
+
+main {
+background-color: #ECF0F1;
+
 }
 
 /* Subtitulo para os videos*/
@@ -33,12 +38,15 @@ body {
 /* Videos */
 header {
     font-size: 40px;
-    color: white;
+    color: #BDCEC7;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.7);
+    padding-top: 20vh;
     height: 100px;
     margin: auto;
+    margin-bottom: 90PX;
     padding-top: 50px;
     margin-bottom: 100px;
-    background: linear-gradient(45deg, rgb(85, 153, 255), rgb(0, 102, 204));
+    background: linear-gradient(45deg, #2C3E50);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
