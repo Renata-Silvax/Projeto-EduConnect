@@ -69,9 +69,8 @@ nav.menu-lateral {
     transition: width 0.5s ease-in-out;
 }
 
-nav.menu-lateral.btn-expadir {
+nav.menu-lateral.expadir {
     width: 300px;
-    
     
 }
 
