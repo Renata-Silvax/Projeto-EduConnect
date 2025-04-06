@@ -69,8 +69,10 @@ nav.menu-lateral {
     transition: width 0.5s ease-in-out;
 }
 
-nav.menu-lateral.expadir {
+nav.menu-lateral.btn-expadir {
     width: 300px;
+    
+    
 }
 
 nav.menu-lateral.expadir .txt-link {
