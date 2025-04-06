@@ -74,6 +74,10 @@ nav.menu-lateral.expadir {
     
 }
 
+.btn-expandir {
+    margin-left: 17px;
+}
+
 nav.menu-lateral.expadir .txt-link {
     margin-left: 40px;
 }
