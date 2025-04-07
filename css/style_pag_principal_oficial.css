@@ -110,10 +110,6 @@ ul li.item-menu {
     transition: .2s;
 }
 
-/*ul li.ativo {
-    background-color: #F39C12;
-}*/
-
 ul li.ativo>a>span.icon {
     color: #ffff;
 }
@@ -148,12 +144,11 @@ ul li.item-menu a .icon>i {
     display: flex;
     justify-content: center;
     padding-top: 30px;
-
 }
 
 .card {
     padding: 20px;
-    background-color: #ECF0F1;
+    background-color: #ffff;
     border-radius: 5px;
     border-color: grey;
     border-style: solid;
@@ -283,6 +278,7 @@ a {
     background-color: white;
     width: 40vh;
     height: 45vh;
+    border-radius: 5px;
     text-align: center;
     padding: 25px;
     box-shadow: 0px 4px 8px rgba(128, 128, 128, 0.199);

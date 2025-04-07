@@ -6,20 +6,16 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #2C3E50;
     text-align: center;
+    background-color: #ECF0F1;
 }
 
-main {
-background-color: #ECF0F1;
-
-}
 
 /* Subtitulo para os videos*/
 
 .h2_Dicas{
     margin-bottom: 150px;
-    color: rgb(178, 119, 9);
+    color: #2C3E50;
     background-color: white;
     box-shadow: 3px black;
     height: 60px;
@@ -38,7 +34,7 @@ background-color: #ECF0F1;
 /* Videos */
 header {
     font-size: 40px;
-    color: #BDCEC7;
+    color: #2C3E50;
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.7);
     padding-top: 20vh;
     height: 100px;
@@ -50,10 +46,11 @@ header {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/*color: rgb(178, 119, 9);*/
 
 .video_section h3 {
     font-size: 30px;
-    color: rgb(178, 119, 9);
+    color: #2C3E50;
     margin: 100px;
     text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
     margin-bottom: 30px;
@@ -128,4 +125,82 @@ iframe:hover {
 
 .bloco_videos2 iframe:hover {
     transform: scale(1.10);
+}
+
+/*Estilização da barra*/
+
+nav.menu-lateral {
+    width: 80px;
+    height: 100%;
+    background-color: #2C3E50;
+    box-shadow: 3px 0 0 #F39C12;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: width 0.5s ease-in-out;
+}
+
+nav.menu-lateral.expadir {
+    width: 300px;
+    
+}
+
+.btn-expandir {
+    margin-left: 17px;
+    color: white;
+}
+
+nav.menu-lateral.expadir .txt-link {
+    margin-left: 40px;
+}
+
+
+.btn-expadir {
+    width: 100%;
+    padding-left: 100px;
+}
+
+.btn-expadir>i {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* estilização da lista */
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu {
+    transition: .2s;
+}
+
+ul li.ativo>a>span.icon {
+    color: #ffff;
+}
+
+ul li.item-menu:hover {
+    background-color: #F39C12;
+}
+
+ul li.item-menu a {
+    display: flex;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+}
+
+ul li.item-menu a .txt-link {
+    font-size: 12pt;
+    color: white;
+    margin-left: 70px;
+}
+
+ul li.item-menu a .icon>i {
+    font-size: 25px;
+    display: block;
+    margin: 0px 60%;
+    opacity: 1;
 }
