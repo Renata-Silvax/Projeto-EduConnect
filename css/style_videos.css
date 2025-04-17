@@ -10,6 +10,12 @@ body {
     background-color: #ECF0F1;
 }
 
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 /*estilo da barra menu */
 
 .item-menu {
@@ -47,10 +53,9 @@ header {
     padding-top: 20vh;
     height: 100px;
     margin: auto;
-    margin-bottom: 90PX;
+    margin-bottom: 100PX;
     padding-top: 50px;
-    margin-bottom: 100px;
-    background: linear-gradient(45deg, #2C3E50);
+    background: linear-gradient(45deg, #ECF0F1);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -71,6 +76,7 @@ header {
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
 }
 
 .video_section {
@@ -155,24 +161,28 @@ nav.menu-lateral.expadir {
 }
 
 .btn-expandir {
-    margin-left: 17px;
+    margin-left: auto;
     color: white;
-}
+    position: fixed;
+    margin: 20px;
+  }
 
 nav.menu-lateral.expadir .txt-link {
     margin-left: 40px;
 }
 
-
 .btn-expadir {
     width: 100%;
     padding-left: 100px;
+    position: relative;
 }
 
 .btn-expadir>i {
     font-size: 24px;
     cursor: pointer;
 }
+
+
 
 /* estilização da lista */
 ul {
@@ -190,6 +200,10 @@ ul li.ativo>a>span.icon {
 
 ul li.item-menu:hover {
     background-color: #F39C12;
+}
+
+.item-menu.ativo {
+    margin-top: 70px;
 }
 
 ul li.item-menu a {
