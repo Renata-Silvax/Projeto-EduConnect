@@ -27,7 +27,7 @@ body {
 
 /* Subtitulo para os videos*/
 
-.h2_Dicas{
+/* .h2_Dicas{
     margin-bottom: 150px;
     color: #2C3E50;
     background-color: white;
@@ -45,7 +45,7 @@ body {
     text-shadow: 2px 2px 2px rgba(253, 179, 6, 0.3);
 }
 
-/* Videos */
+/* Videos 
 header {
     font-size: 40px;
     color: #2C3E50;
@@ -61,7 +61,7 @@ header {
 
 /*color: rgb(178, 119, 9);*/
 
-.video_section h3 {
+/*.video_section h3 {
     font-size: 30px;
     color: #2C3E50;
     margin: 100px;
@@ -111,7 +111,7 @@ iframe:hover {
 }
 
 
-/* Videos para dicas*/
+/* Videos para dicas
 
 .bloco_videos2 {
     display: flex;
@@ -141,7 +141,7 @@ iframe:hover {
     transform: scale(1.10);
 }
 
-/*Estilização da barra*/
+/*Estilização da barra
 
 nav.menu-lateral {
     width: 80px;
@@ -153,8 +153,9 @@ nav.menu-lateral {
     left: 0;
     overflow: hidden;
     transition: width 0.5s ease-in-out;
-}
+} */
 
+/* Barra */
 nav.menu-lateral.expadir {
     width: 300px;
     

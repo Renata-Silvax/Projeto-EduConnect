@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: black;
+    background-color:  #ECF0F1;
     text-align: center;
 }
 
@@ -180,7 +180,7 @@ header.element_aparece {
 
 /*footer do site*/
 .site {
-    background-color: rgb(85, 153, 255);
+    background-color: #ECF0F1;
     letter-spacing: 1px;
     height: 130px;
     text-align: center;
