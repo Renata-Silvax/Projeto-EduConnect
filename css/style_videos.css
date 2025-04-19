@@ -9,7 +9,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #ECF0F1;
-    color: #34495E;
+    color: #2980B9;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
     text-align: center;
     padding: 50px 20px;
     background-color: #ECF0F1;
-    color: #2C3E50;
+    color: #2980B9;
     font-size: 2.5rem;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
@@ -33,7 +33,7 @@ header {
 nav.menu-lateral {
     width: 80px;
     height: 100%;
-    background-color: #2C3E50;
+    background-color: #2980B9;
     box-shadow: 3px 0 0 #F39C12;
     position: fixed;
     top: 0;
@@ -114,7 +114,7 @@ main {
 .h2_Dicas {
     font-size: 1.8rem;
     background-color: #fff;
-    color: #2C3E50;
+    color: #2980B9;
     padding: 15px 30px;
     border-radius: 20px;
     margin: 60px auto;
@@ -167,12 +167,12 @@ iframe:hover {
     background-color: #ECF0F1;
     letter-spacing: 1px;
     height: 130px;
-    text-align: center;
+    margin-left: 60px;
     padding-top: 20px;
 }
 
 .pe {
-    color: #2C3E50;
+    color: #2980B9;
 }
 
 footer span {
