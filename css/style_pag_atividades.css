@@ -51,6 +51,10 @@ h2 {
     align-items: center;
 }
 
+.atividade4{
+    margin-right: 30px;
+}
+
 .atividade a {
     text-decoration: none;
     color: black;
@@ -75,3 +79,37 @@ section img {
     width: 348px;
     border-radius: 20px 20px 0 0;
 }
+
+/* footer */
+.site {
+    background-color: #ECF0F1;
+    letter-spacing: 0.5px;
+    height: 130px;
+    text-align: center;
+    padding-top: 20px;
+    color: #2980B9;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pe h2 {
+    color: #2980B9;
+    font-size: 25px;
+}
+
+footer span {
+    color: rgb(204, 119, 7);
+    font-size: 25px;
+}
+
+.linha {
+    /* border-top: 2px solid #2C3E50;  */
+    width: 100%;
+    max-width: 1000px;
+    margin-left: 300px;
+    margin-right: auto;
+    border: 1px  #F39C12;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    opacity: 0.5;
+} 
