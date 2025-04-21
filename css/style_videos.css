@@ -186,10 +186,15 @@ footer span {
     max-width: 1000px;
     margin-left: -250px;
     margin-right: auto;
-    border: 1px solid #F39C12;
     margin-bottom: 15px;
     margin-top: 10px;
-    opacity: 0.5;
+   
+}
+
+.linha hr {
+    border: 0;
+    border-top: 2px solid #F39C12;
+    margin: 20px 70px 20px 70px;
 }
 
 /* Responsivo */

@@ -11,12 +11,12 @@
 }
 
 body {
-    background-color:  #ECF0F1;
+    background-color: #ECF0F1;
     text-align: center;
+    color: #34495E;
 }
 
 /*Cabeça do site*/
-
 header {
     background-image: url(../imagens/img_fundo2.jpg);
     background-position: center;
@@ -29,12 +29,15 @@ header {
 }
 
 .header_h2 {
-    color: rgb(255, 255, 255);
-    /*box-shadow: rgb(255, 255, 255) 2px 1px 5px 1px;*/
+    color: #3498DB;
+    font-size: 45px;
+    padding-top: 15vh;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.7);
+    /* color: #3498DB;
     width: 800px;
     margin: auto;
     height: 260px;
-    font-size: 40px;
+    font-size: 40px; */
 }
 
 .paragrafo_header {
@@ -43,21 +46,25 @@ header {
     width: 90%;
 }
 
+.paragrafo p strong {
+    color: #F39C12;
+}
+
 /*Corpo do site*/
 .texto1 {
     text-align: center;
 }
 
-.texto1 h3 {
+/* .texto1 h3 {
     background-color: white;
-    color: black;
+    color: #3498DB;
     text-align: justify;
     font-size: 25px;
     padding: 10px;
     height: auto;
     margin: auto;
     width: 50%;
-}
+} */
 
 .texto2 p {
     font-size: 1.2vw;
@@ -71,7 +78,7 @@ header {
     min-width: 300px;
     height: 30%;
     margin: auto;
-    border-radius: 15px 15px 15px 15px ;
+    border-radius: 15px 15px 15px 15px;
 
 }
 
@@ -82,8 +89,11 @@ header {
 
 .img_mulher {
     width: 50%;
-    margin: 0px auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
     border-radius: 0px 6px 6px 0px;
+    /* border-radius: 0px 6px 6px 0px; */
 }
 
 .card {
@@ -101,6 +111,9 @@ section img {
     border-radius: 20px 20px 0 0;
 }
 
+h1 {
+    color: #3498DB;
+}
 
 section {
     margin-top: 100px;
@@ -141,17 +154,18 @@ section:hover {
     text-align: center;
 }
 
+/* Estilização co card com a Imagem */
+.texto2 h2 {
+    margin-top: 13vh;
+    color: #3498DB;
+}
+
 .texto2 {
     margin-top: 40px;
     display: flex;
     font-size: 30px;
+    color: black;
 }
-
-.texto2 h2 {
-    margin-top: 13vh;
-    color: rgb(204, 119, 7);
-}
-
 
 a:hover {
     color: black;
@@ -188,14 +202,36 @@ header.element_aparece {
 
 .pe {
     margin-top: 35px;
-    color: white;
+    color: #F39C12;
     margin-left: 20px;
 }
 
+footer p {
+    color: #3498DB;
+}
+
 span {
-    color: rgb(204, 119, 7);
+    color: #3498DB;
 }
 
 .linha {
     margin: 20px 70px 20px 70px;
+}
+
+.linha hr {
+    border: 0;
+    border-top: 2px solid #F39C12;
+    margin: 20px 70px 20px 70px;
+}
+
+@media (max-width: 768px) {
+
+    header,
+    footer {
+        padding: 10px;
+    }
+
+    .requisitos {
+        padding: 15px;
+    }
 }

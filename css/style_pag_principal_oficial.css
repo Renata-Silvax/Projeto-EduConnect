@@ -217,6 +217,7 @@ img {
     padding-top: 20vh;
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.7);
 }
+
 /*  #3498DB */
 a {
     text-decoration: none;
@@ -285,20 +286,18 @@ p {
 }
 
 footer span {
-    color: rgb(204, 119, 7);
+    color: #F39C12;
 }
 
 .linha {
-    /* border-top: 2px solid #2C3E50;  */
-    width: 100%;
-    max-width: 1000px;
-    margin-left: 300px;
-    margin-right: auto;
-    border: 1px solid #F39C12;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    opacity: 0.5;
-} 
+    margin: 20px 70px 20px 70px;
+}
+
+.linha hr {
+    border: 0;
+    border-top: 2px solid #F39C12;
+    margin: 20px 70px 20px 70px;
+}
 
 
 @media (max-width: 768px) {
