@@ -18,14 +18,18 @@ body {
 
 /*Cabeça do site*/
 header {
-    background-image: url(../imagens/img_fundo2.jpg);
+    background-image: url(../img.teste.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
     transition: opacity 3s, filter 4s;
     color: white;
-    padding-top: 50px;
+
+}
+div.cinza {
+    background-color:rgba(0, 0, 0, 0.238);
+    height: 100%;
 }
 
 /* estilo da barra menu */
