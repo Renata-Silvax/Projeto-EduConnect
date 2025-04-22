@@ -28,6 +28,82 @@ header {
     padding-top: 50px;
 }
 
+/* estilo da barra menu */
+nav.menu-lateral {
+    width: 80px;
+    height: 100%;
+    background-color: #2980B9;
+    box-shadow: 3px 0 0 #F39C12;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: width 0.5s ease-in-out;
+}
+
+nav.menu-lateral.expandir {
+    width: 300px;
+}
+
+nav.menu-lateral ul {
+    padding-top: 70px;
+}
+
+.btn-expandir {
+    margin-left: 2px;
+    position: absolute;
+    padding: 15px;
+    color: #ffff;
+}
+
+nav.menu-lateral.expandir .txt-link {
+    margin-left: 40px;
+}
+
+.btn-expandir>i {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+/* estilização da lista */
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu {
+    transition: width .2s ease-in-out;
+}
+
+ul li.ativo>a>span.icon {
+    color: #ffff;
+}
+
+ul li.item-menu:hover {
+    background-color: #F39C12;
+}
+
+ul li.item-menu a {
+    display: flex;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+}
+
+ul li.item-menu a .txt-link {
+    font-size: 12pt;
+    color: white;
+    margin-left: 70px;
+}
+
+ul li.item-menu a .icon>i {
+    font-size: 25px;
+    display: block;
+    margin: 0px 60%;
+    opacity: 1;
+}
+
 .header_h2 {
     color: #3498DB;
     font-size: 45px;
@@ -210,7 +286,7 @@ footer p {
     color: #3498DB;
 }
 
-span {
+footer span {
     color: #3498DB;
 }
 
@@ -235,3 +311,4 @@ span {
         padding: 15px;
     }
 }
+

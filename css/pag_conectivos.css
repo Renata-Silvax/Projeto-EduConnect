@@ -16,6 +16,78 @@ header {
     color:  #2980B9;
 }
 
+
+/* estilo da barra menu */
+nav.menu-lateral {
+    width: 80px;
+    height: 100%;
+    background-color: #2980B9;
+    box-shadow: 3px 0 0 #F39C12;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: width 0.5s ease-in-out;
+}
+
+nav.menu-lateral.expandir {
+    width: 300px;
+}
+
+.btn-expandir {
+    margin-left: 2px;
+    color: #ffff;
+    padding: 15px;
+}
+
+nav.menu-lateral.expandir .txt-link {
+    margin-left: 40px;
+}
+
+.btn-expandir>i {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+/* estilização da lista */
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu {
+    transition: width .2s ease-in-out;
+}
+
+ul li.ativo>a>span.icon {
+    color: #ffff;
+}
+
+ul li.item-menu:hover {
+    background-color: #F39C12;
+}
+
+ul li.item-menu a {
+    display: flex;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+}
+
+ul li.item-menu a .txt-link {
+    font-size: 12pt;
+    color: white;
+    margin-left: 70px;
+}
+
+ul li.item-menu a .icon>i {
+    font-size: 25px;
+    display: block;
+    margin: 0px 60%;
+    opacity: 1;
+}
+
 .lista {
     background-color: white;
     font-size: 20px;
@@ -47,15 +119,14 @@ footer span {
 }
 
 .linha {
-    /* border-top: 2px solid #2C3E50;  */
-    width: 100%;
-    max-width: 1000px;
-    margin-left: 300px;
-    margin-right: auto;
-    border: 1px #F39C12;
-    margin-bottom: 10px;
-    opacity: 0.5;
-} 
+    margin: 20px 70px 20px 70px;
+}
+
+.linha hr {
+    border: 0;
+    border-top: 2px solid #F39C12;
+    margin: 20px 70px 20px 70px;
+}
 
 /* Responsividade */
 @media (max-width: 768px) {

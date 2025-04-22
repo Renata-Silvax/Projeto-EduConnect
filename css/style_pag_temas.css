@@ -210,14 +210,13 @@ footer span {
 }
 
 .linha {
-    width: 100%;
-    max-width: 1000px;
-    margin-left: 230px;
-    margin-right: auto;
-    border: 1px solid #F39C12;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    opacity: 0.5;
+    margin: 20px 70px 20px 70px;
+}
+
+.linha hr {
+    border: 0;
+    border-top: 2px solid #F39C12;
+    margin: 20px 70px 20px 70px;
 }
 
 /* Responsivo */
