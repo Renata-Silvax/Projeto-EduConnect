@@ -6,7 +6,7 @@ body{
 
 /* estilo da barra menu */
 nav.menu-lateral {
-    width: 80px;
+    width: 70px;
     height: 100%;
     background-color: #2980B9;
     box-shadow: 3px 0 0 #F39C12;
@@ -29,6 +29,7 @@ nav.menu-lateral.expandir {
 
 nav.menu-lateral.expandir .txt-link {
     margin-left: 40px;
+    font-size: 18px;
 }
 
 .btn-expandir>i {
@@ -58,7 +59,8 @@ ul li.item-menu a {
     display: flex;
     color: #ffff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 50px;
+    margin-left: -37px;
     padding: 20px 4%;
 }
 
@@ -75,7 +77,8 @@ ul li.item-menu a .icon>i {
     opacity: 1;
 }
 
-main{
+/* Corpo do Site */
+/* main{
     background-color: #3498DB;
     width: max-content;
     margin: auto;
@@ -138,7 +141,7 @@ main{
 h1{
     text-align: center;
     background-color: #FFFFFF;
-    color: #F39C12;
+    color: #F39C52;
     width: 40vw;
     margin: auto;
     margin-top: 30px;
@@ -155,8 +158,11 @@ a{
     padding: 7px;
 } 
 
+a:hover {
+    background: #F1C40F;
+}
 
-/* footer */
+/* footer 
 .site {
     background-color: #ECF0F1;
     letter-spacing: 1px;
@@ -181,4 +187,4 @@ footer span {
     border: 0;
     border-top: 2px solid #F39C12;
     margin: 20px 70px 20px 70px;
-}
+} */
