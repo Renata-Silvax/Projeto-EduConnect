@@ -1,7 +1,7 @@
 @charset "utf-8";
-
 body{
     background-color: #ECF0F1;
+    font-family: "Poppins", sans-serif;
 }
 
 /* estilo da barra menu */
@@ -78,7 +78,7 @@ ul li.item-menu a .icon>i {
 }
 
 /* Corpo do Site */
-/* main{
+main{
     background-color: #3498DB;
     width: max-content;
     margin: auto;
@@ -148,7 +148,7 @@ h1{
     border-radius: 0 0 20px 20px;
 }
 
-a{
+.card a{
     text-align: center;
     background-color: #F39C12;
     color: white;
@@ -158,21 +158,28 @@ a{
     padding: 7px;
 } 
 
-a:hover {
-    background: #F1C40F;
+.card a :hover{
+    background-color: #F1C40F;
 }
 
-/* footer 
+a:hover {
+    background: #F39C12;
+}
+
+/* footer */
+/* footer{
+    margin-top: 35px;
+} */
 .site {
     background-color: #ECF0F1;
     letter-spacing: 1px;
     height: 130px;
     text-align: center;
-    padding-top: 20px;
 }
 
 footer p, .pe {
     color: #2980B9;
+    font-size: 13px;
 }
 
 footer span {
@@ -187,4 +194,4 @@ footer span {
     border: 0;
     border-top: 2px solid #F39C12;
     margin: 20px 70px 20px 70px;
-} */
+} 
