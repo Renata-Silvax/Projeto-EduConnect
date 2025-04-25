@@ -7,7 +7,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family:"poppins";
 }
 
 body {
@@ -79,6 +79,54 @@ nav.menu-lateral.expandir .txt-link {
     cursor: pointer;
 }
 
+.header_h2 {
+    color: #3498DB;
+    font-size: 45px;
+    padding-top: 15vh;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+.paragrafo_header {
+    font-size: 24px;
+    margin: 60px auto;
+    width: 88%;
+}
+
+.paragrafo p strong {
+    color: #F39C12;
+} 
+
+nav.menu-lateral {
+    width: 80px;
+    height: 100%;
+    background-color: #2980B9;
+    box-shadow: 3px 0 0 #F39C12;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: width 0.5s ease-in-out;
+}
+
+nav.menu-lateral.expandir {
+    width: 300px;
+}
+
+.btn-expandir {
+    margin-left: 2px;
+    color: #ffff;
+    padding: 15px;
+}
+
+nav.menu-lateral.expandir .txt-link {
+    margin-left: 40px;
+}
+
+.btn-expandir>i {
+    font-size: 32px;
+    cursor: pointer;
+}
+
 /* estilização da lista */
 ul {
     height: 100%;
@@ -109,6 +157,7 @@ ul li.item-menu a .txt-link {
     font-size: 12pt;
     color: white;
     margin-left: 70px;
+    font-weight: 400;
 }
 
 ul li.item-menu a .icon>i {
@@ -116,23 +165,6 @@ ul li.item-menu a .icon>i {
     display: block;
     margin: 0px 60%;
     opacity: 1;
-}
-
-.header_h2 {
-    color: #3498DB;
-    font-size: 45px;
-    padding-top: 15vh;
-    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.7);
-}
-
-.paragrafo_header {
-    font-size: 24px;
-    margin: 60px auto;
-    width: 88%;
-}
-
-.paragrafo p strong {
-    color: #F39C12;
 }
 
 /*Corpo do site*/
@@ -159,6 +191,10 @@ ul li.item-menu a .icon>i {
 .paragrafo {
     width: 50%;
     margin-top: -100px;
+}
+
+.requisitos p{
+    font-weight: 600;
 }
 
 .img_mulher {
@@ -209,7 +245,7 @@ section:hover {
 
 
 .card h1 {
-    margin-top: 18px;
+    margin-top: 12px;
     text-align: center;
     font-size: 25px;
 }
@@ -235,12 +271,16 @@ section:hover {
 }
 
 .texto2 {
-    margin-top: 40px;
+    margin-top: 120px;
     display: flex;
     font-size: 30px;
     color: black;
+    font-weight: 500;
 }
 
+.paragrafo p{
+    margin-bottom: -90px;
+}
 a:hover {
     color: black;
 }
