@@ -78,7 +78,7 @@ ul li.item-menu a .icon>i {
 }
 
 /* Corpo do Site */
-/* main{
+main{
     background-color: #3498DB;
     width: max-content;
     margin: auto;
@@ -162,7 +162,7 @@ a:hover {
     background: #F1C40F;
 }
 
-/* footer 
+/* footer */
 .site {
     background-color: #ECF0F1;
     letter-spacing: 1px;
@@ -187,4 +187,4 @@ footer span {
     border: 0;
     border-top: 2px solid #F39C12;
     margin: 20px 70px 20px 70px;
-} */
+}

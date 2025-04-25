@@ -28,6 +28,14 @@ header {
     color:  #2980B9;
 }
 
+.layout {
+    display: flex;
+  }
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+  }
 
 /* estilo da barra menu */
 nav.menu-lateral {
@@ -40,6 +48,8 @@ nav.menu-lateral {
     left: 0;
     overflow: hidden;
     transition: width 0.5s ease-in-out;
+    flex-shrink: 0;
+    z-index: 999;
 }
 
 nav.menu-lateral.expandir {

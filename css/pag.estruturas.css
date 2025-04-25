@@ -32,6 +32,14 @@ div.cinza {
     height: 100%;
 }
 
+.layout {
+    display: flex;
+  }
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+  }
 /* estilo da barra menu */
 nav.menu-lateral {
     width: 80px;
@@ -43,6 +51,8 @@ nav.menu-lateral {
     left: 0;
     overflow: hidden;
     transition: width 0.5s ease-in-out;
+    flex-shrink: 0;
+    z-index: 999;
 }
 
 nav.menu-lateral.expandir {
@@ -134,17 +144,6 @@ ul li.item-menu a .icon>i {
 .texto1 {
     text-align: center;
 }
-
-/* .texto1 h3 {
-    background-color: white;
-    color: #3498DB;
-    text-align: justify;
-    font-size: 25px;
-    padding: 10px;
-    height: auto;
-    margin: auto;
-    width: 50%;
-} */
 
 .texto2 p {
     font-size: 1.2vw;
